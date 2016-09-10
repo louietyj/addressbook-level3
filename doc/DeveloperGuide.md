@@ -105,6 +105,9 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
+5. Should be able to recover from slightly corrupted data.
+6. Should allow concurrent read/writes.
+7. Should allow schema migrations.
 
 ## Appendix D : Glossary
 
