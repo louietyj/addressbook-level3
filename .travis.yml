@@ -1,3 +1,11 @@
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
+addons:
+  sonarqube: true
+env:
+  global:
+  - secure: uJPjOwfY7pjY0gtwWhCzHF42IgFI6Z9EaU4XI4/NWEee17oHnB9CKSgEv9oCnQ8CMywj88gLyOXtwFSubfQWIPDIfBc1nI95CrGgfGVUrsv06xpPTyY9LXQRTzTUfkRrKWzGNW8UKGE7syLiY34BIWm62MQ+A7jDxLmn7Gu+Wjo4kb+bCw8kE2l0V8HcD7Mqf1zdGc9lAMQqSlJPu9rEK3mwiutisjxvpj5fqDgXAPwP6WAJUuTBnWE3vyaeRClX7/ZBNLN0/149d/19C+s5B0pnd+li3GphGx1riNLgDUmcocyIenscmcHWPPVdyKvGWydiNFLo8YiH5MiRoEuoIYNEdD3eaTz1ZWRFbNIyEkrXw3cfTeOUF6FRL6YjAS2Y6Qj0h7bF12iHQDeQVgIQlzk6cgnkSg1YLR5KIaA8DRmV7FSJ9JHCEpiH0TvVTq6j+7dUdaEItbdrll3UDndhd/00IrPGTh8Y4B9t/d8kTQ2di2G3UGV96nrEenD85XzJWaVaMtzp606sP5eKCZI96u2lJFO9qJdytMLFY/keKYtj62Pk6BzEtrvVEJGE9NcEwM7TiolNZbPhhgd+JbI6diMRh0WsYLnvMY6f9OtPFYlPQOxxlMjdIB4AscI5QIqnFPBoDaph6LuykXaf4zqvC4iz0xjMJfklMqhTq9Ff2GM=
+script:
+  # other script steps might be done before running the actual SonarQube analysis
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN
