@@ -1,5 +1,8 @@
 # AddressBook (Level 3)
 [![Build Status](https://travis-ci.org/louietyj/addressbook-level3.png?branch=master)](https://travis-ci.org/louietyj/addressbook-level3)
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=seedu.addressbook)](https://sonarqube.com/dashboard/index/seedu.addressbook)
+[![Tech Debt](https://img.shields.io/sonar/http/sonarqube.com/seedu.addressbook/tech_debt.svg)](https://sonarqube.com/dashboard/index/seedu.addressbook)
+[![Lines of Code](https://img.shields.io/sonar/http/sonarqube.com/seedu.addressbook/ncloc.svg)](https://sonarqube.com/dashboard/index/seedu.addressbook)
 
 <img src="doc/images/Ui.png">
 
