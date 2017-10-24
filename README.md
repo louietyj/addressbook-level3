@@ -26,7 +26,7 @@
 
 # Contributors
 
-* [Damith C. Rajapakse](http://www.comp.nus.edu.sg/~damithch) : Project Advisor
+* [Damith C. Rajapakse](http://www.comp.nus.edu.sg/~damithch): Project Advisor
 * [Leow Yijin](http://github.com/yijinl): Developer
 * [Martin Choo](http://github.com/m133225): Developer
 * [You Liang](http://github.com/yl-coder) : Developer 
